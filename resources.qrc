@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Style.qml</file>
+        <file>fonts/Poppins-Thin.ttf</file>
+        <file>fonts/Poppins-Regular.ttf</file>
+        <file>Screens/TemperaturePage.qml</file>
+        <file>Screens/StatisticsPage.qml</file>
+        <file>Screens/SplashScreen.qml</file>
+        <file>Screens/PositionPage.qml</file>
+        <file>Screens/HomePage.qml</file>
+        <file>images/splashscreen/cloudy.png</file>
+        <file>images/homepage/remove.png</file>
+        <file>images/homepage/radar.png</file>
+        <file>images/homepage/active.png</file>
+        <file>images/bottombar/undo.png</file>
+        <file>images/bottombar/home.png</file>
+        <file>Components/WeeklyStats.qml</file>
+        <file>Components/WeeklyChart.qml</file>
+        <file>Components/Notification.qml</file>
+        <file>Components/HalfCircleGauge.qml</file>
+        <file>Components/DistanceProgressBar.qml</file>
+        <file>Components/Clock.qml</file>
+    </qresource>
+</RCC>
