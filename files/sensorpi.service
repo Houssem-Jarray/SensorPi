@@ -1,14 +1,16 @@
 [Unit]
 Description=SensorPi Qt Application
-After=autox.service
-Requires=autox.service
+After=systemd-user-sessions.service
+Wants=systemd-user-sessions.service
 
 [Service]
 Type=simple
 User=techleef
 Environment=DISPLAY=:0
-ExecStart=/usr/bin/sensorpi -platform xcb
+ExecStart=/usr/bin/xinit /etc/X11/xinit/xinitrc -- :0
 Restart=on-failure
+StandardOutput=journal
+StandardError=journal
 
 [Install]
-WantedBy=graphical.target
+WantedBy=multi-user.target

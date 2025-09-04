@@ -1,9 +1,9 @@
 import QtQuick
-import QtQuick.VirtualKeyboard
+// import QtQuick.VirtualKeyboard
 import QtQuick.Window
 import QtQuick.Controls.Basic
 import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
+// import Qt5Compat.GraphicalEffects
 
 import Style
 import "Screens"
